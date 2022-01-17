@@ -13,8 +13,8 @@ namespace Methods2               //DO NOT Change namespace name
             //Implement your code here
             Console.WriteLine("Enter a Number");
             double num = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Square of " + x + " is " + FindSquare(num));
-            Console.WriteLine("Cube of " + x + " is " + FindCube(num));
+            Console.WriteLine("Square of " + num + " is " + FindSquare(num));
+            Console.WriteLine("Cube of " + num + " is " + FindCube(num));
         }
         //Implement methods here. Keep the method 'public' and 'static'
         public static double FindSquare(double num){
